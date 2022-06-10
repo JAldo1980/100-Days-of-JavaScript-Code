@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 100vh;
+}
+
+.team-containers {
+    text-align: center;
+}
+
+h3 {
+    color: #fff;
+    font-size: 8rem;
+    font-family: Verdana;
+}
+
+.score-box{
+    background-color: black;
+   
+    padding: 8rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+button {
+    color: white;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn{
+    
+    background-color: #1B244A;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: "Cursed Timer ULiL";
+}
+
+.reset {
+    margin-top: 3rem;
+    background-color: #1B244A;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: "Cursed Timer ULiL";
+    letter-spacing: .2rem;
+}
