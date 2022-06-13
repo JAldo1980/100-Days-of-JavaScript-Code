@@ -1,0 +1,55 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-color: green;
+    padding: 30px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.startgame{
+color: #016f32;
+font-size: 25px;
+font-weight: bold;
+width: 300px;
+background: goldenrod;
+padding: 10px 50px;
+border: none;
+border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.newcard{
+    color: #016f32;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    background: goldenrod;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    }
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 20px;
+    color: #fff;
+}
